@@ -8,7 +8,8 @@ class TodoItem extends Component {
             padding: '10px',
             background: '#f4f4f4',
             borderBottom: '1px solid #dedede',
-            textDecoration: this.props.todo.completed ? 'line-through' : 'none'
+            textDecoration: this.props.todo.completed ? 'line-through' : 'none',
+            color: this.props.todo.completed ? '#bbb' : '#000'
         }
     }
 
